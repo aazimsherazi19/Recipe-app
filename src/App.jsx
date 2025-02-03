@@ -13,19 +13,19 @@ function App() {
       <Navbar />
       <Routes>
         <Route
-        path='/Recipe-app/'
+        path='/'
         element={
           <Home />
         }
         ></Route>
         <Route
-        path='/Recipe-app/favourites'
+        path='/favourites'
         element={
           <Favourites />
         }
         ></Route>
         <Route
-        path='/Recipe-app/recipe-item/:id'
+        path='/recipe-item/:id'
         element={
           <Details />
         }
